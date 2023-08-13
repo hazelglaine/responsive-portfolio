@@ -6,8 +6,13 @@
   --accent-color: #dfcdc3;
 }
 
-h1 {
+h1,
+h2,
+p {
   font-family: var(--primary-font);
+}
+
+h1 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 72px;
@@ -16,6 +21,22 @@ h1 {
 }
 
 h2 {
+  font-size: 64px;
+  color: var(--text-color);
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.hero {
+  text-align: center;
+  background-color: #3c4245;
+  padding: 15%;
+}
+
+.hero h2 {
   font-family: var(--primary-font);
   font-size: 24px;
   color: var(--text-color);
@@ -23,15 +44,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.hero {
-  text-align: center;
-  background-color: #3c4245;
-  margin: ;
-  padding: 17%;
-}
-
 .hero p {
-  margin: 10px 150px;
   color: var(--text-color);
   font-size: 18px;
   font-family: var(--primary-font);
@@ -41,9 +54,46 @@ h2 {
 .btn-branding {
   font-family: var(--secondary-font);
   font-size: 14px;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+}
+
+.btn-branding:hover {
   background: #ffffff;
-  color: var(--main-color);
+}
+
+.btn-branding-filled {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  color: var(--accent-color);
+  background: var(--main-color);
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 50px;
+}
+
+.btn-branding-filled:hover {
+  border: 1px solid var(--main-color);
+}
+
+.article-description {
+  padding: 90px 20px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .article-description {
+    text-align: center;
+    padding: 0 20px;
+  }
 }

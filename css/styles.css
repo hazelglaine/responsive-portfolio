@@ -117,4 +117,9 @@ p {
   .article-description p {
     font-size: 16px;
   }
+
+  .about-container {
+    text-align: center;
+    align-items: center;
+  }
 }

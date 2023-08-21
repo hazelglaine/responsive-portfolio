@@ -8,6 +8,7 @@
 
 h1,
 h2,
+h3,
 p {
   font-family: var(--primary-font);
 }
@@ -25,9 +26,29 @@ h2 {
   color: var(--text-color);
 }
 
+h3 {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 p {
   font-size: 18px;
   line-height: 30px;
+  font-weight: 100;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all ease-in-out 200ms;
+}
+
+a:hover {
+  font-weight: bold;
+  color: var(--main-color);
 }
 
 .hero {
@@ -42,13 +63,6 @@ p {
   color: var(--text-color);
   letter-spacing: 3px;
   text-transform: uppercase;
-}
-
-p {
-  color: var(--text-color);
-  font-size: 18px;
-  font-family: var(--primary-font);
-  line-height: 30px;
 }
 
 .content h1 {

@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 48px;
   color: var(--text-color);
 }
 
@@ -51,19 +51,19 @@ p {
   line-height: 30px;
 }
 
-.about-section h1 {
-  font-family: var(--primary-font);
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.about-section h2 {
+.content h1 {
   font-family: var(--primary-font);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 64px;
+  letter-spacing: 1px;
+}
+
+.content h2 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
@@ -101,7 +101,7 @@ p {
 
 @media (max-width: 900px) {
   h1,
-  .about-section h2 {
+  .content h1 {
     font-size: 42px;
   }
 

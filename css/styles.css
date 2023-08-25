@@ -51,6 +51,30 @@ a:hover {
   color: var(--main-color);
 }
 
+nav {
+  padding: 5px 0;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+nav li.active a {
+  color: var(--accent-color);
+}
+
 .hero {
   text-align: center;
   background-color: #3c4245;
@@ -134,5 +158,10 @@ a:hover {
 
   .content-container {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin-left: 5px;
   }
 }

@@ -30,18 +30,20 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/"
-          ><img
-            src="/images/brand-logo.png"
-            class="logo d-none d-md-block"
-            alt=""
-        /></a>
-        <a href="/"
-          ><img
-            src="/images/brand-logo-small.png"
-            class="logo d-block d-md-none"
-            alt=""
-        /></a>
+        <div class="logo-box d-flex">
+          <a href="/"
+            ><img
+              src="/images/brand-logo-small.png"
+              class="logo d-block d-md-none"
+              alt=""
+          /></a>
+          <a href="/"
+            ><img
+              src="/images/brand-logo.png"
+              class="logo d-none d-md-block"
+              alt=""
+          /></a>
+        </div>
 
         <ul>
           <li class="active">
@@ -139,6 +141,17 @@
         </div>
       </div>
       <footer>
+        <div class="contact-box d-none d-md-flex justify-content-between mb-5">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p>Let's collaborate to bring ideas into light</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding-filled mt-4 me-4"
+              >Let's talk here</a
+            >
+          </div>
+        </div>
         <div class="email-link d-flex justify-content-center mb-5">
           <a href="mailto:hazelglainesales@gmail.com"
             >hazelglainesales@gmail.com</a

@@ -9,6 +9,7 @@
 h1,
 h2,
 h3,
+h4,
 p {
   font-family: var(--primary-font);
 }
@@ -31,6 +32,11 @@ h3 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 48px;
+  color: var(--main-color);
 }
 
 p {
@@ -141,6 +147,16 @@ footer {
   margin: 60px 0;
 }
 
+footer .contact-box {
+  background-color: rgba(224, 205, 194, 0.4);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
 footer .email-link a {
   font-family: var(--primary-font);
   font-size: 24px;
@@ -168,17 +184,19 @@ footer .social-links a:hover {
     font-size: 42px;
   }
 
-  h2 {
+  h2,
+  h4,
+  .email-link {
     font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   .article-description {
     text-align: center;
     padding: 0 20px;
-  }
-
-  .article-description p {
-    font-size: 16px;
   }
 
   .content-container {
